@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: sessionbrowser
-          image: thhdemo.azurecr.io/sessionbrowser:latest
+          image: a8ree.azurecr.io/session-ms:latest
           ports:
             - containerPort: 80
           resources:    
