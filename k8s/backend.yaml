@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sesssions-microservice
-          image: thhdemo.azurecr.io/sessions-ms:latest
+          image: a8ree.azurecr.io/sessions-ms:latest
           env:
             - name: APPINSIGHTS_INSTRUMENTATIONKEY
               valueFrom:
@@ -75,7 +75,7 @@ spec:
         - name: acr-auth
       containers:
         - name: votings-microservice
-          image: thhdemo.azurecr.io/votings-ms:latest
+          image: a8ree.azurecr.io/votings-ms:latest
           env:
             - name: APPINSIGHTS_INSTRUMENTATIONKEY
               valueFrom:
